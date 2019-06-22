@@ -29,5 +29,11 @@ public class user {
 		// TODO Auto-generated constructor stub
 	}
 	
+	@Override
+	public String toString() {
+		return "user [userName=" + userName + ", toString()=" + super.toString() + "]";
+	}
+	
+	
 
 }
