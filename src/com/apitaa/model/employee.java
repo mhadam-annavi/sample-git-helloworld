@@ -15,7 +15,7 @@ public class employee {
 	public int empid;
 	public int age;
 	public String name;
-	public String dept;
+	public String department;
 	
 	/**
 	 * @return the empid
