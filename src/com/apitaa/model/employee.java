@@ -31,6 +31,11 @@ public class employee {
 	public employee() {
 		// TODO Auto-generated constructor stub
 	}
+
+	@Override
+	public String toString() {
+		return "employee [empid=" + empid + ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
+	}
 	
 	
 
