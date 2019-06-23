@@ -14,6 +14,7 @@ public class employee {
 	 */
 	public int empid;
 	public int age;
+	public String name;
 	
 	/**
 	 * @return the empid
@@ -49,9 +50,19 @@ public class employee {
 		this.age = age;
 	}
 
-	@Override
-	public String toString() {
-		return "employee [empid=" + empid + ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
+	
+	/**
+	 * @return the name
+	 */
+	public String getName() {
+		return name;
+	}
+
+	/**
+	 * @param name the name to set
+	 */
+	public void setName(String name) {
+		this.name = name;
 	}
 	
 	
