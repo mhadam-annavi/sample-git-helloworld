@@ -13,6 +13,7 @@ public class employee {
 	 * 
 	 */
 	public int empid;
+	public int age;
 	
 	/**
 	 * @return the empid
