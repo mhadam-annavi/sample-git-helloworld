@@ -33,6 +33,22 @@ public class employee {
 		// TODO Auto-generated constructor stub
 	}
 
+	
+	
+	/**
+	 * @return the age
+	 */
+	public int getAge() {
+		return age;
+	}
+
+	/**
+	 * @param age the age to set
+	 */
+	public void setAge(int age) {
+		this.age = age;
+	}
+
 	@Override
 	public String toString() {
 		return "employee [empid=" + empid + ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
