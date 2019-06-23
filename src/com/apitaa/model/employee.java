@@ -13,6 +13,7 @@ public class employee {
 	 * 
 	 */
 	public int empid;
+	public String name;
 	
 	/**
 	 * @return the empid
